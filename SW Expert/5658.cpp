@@ -11,17 +11,23 @@ int getDec(char c, int index, int max) {
 	}
 	if (c == 'F') {
 		return 15 * t;
-	} else if (c == 'E') {
+	}
+	else if (c == 'E') {
 		return 14 * t;
-	} else if (c == 'D') {
+	}
+	else if (c == 'D') {
 		return 13 * t;
-	} else if (c == 'C') {
+	}
+	else if (c == 'C') {
 		return 12 * t;
-	} else if (c == 'B') {
+	}
+	else if (c == 'B') {
 		return 11 * t;
-	} else if (c == 'A') {
+	}
+	else if (c == 'A') {
 		return 10 * t;
-	} else {
+	}
+	else {
 		return (c - '0') * t;
 	}
 }
@@ -59,3 +65,4 @@ int main() {
 
 	return 0;
 }
+
